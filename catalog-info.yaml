@@ -1,8 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "mkp-app"
+  name: replace-me
+  description: Replace me with a real description.
+  tags:
+    - go
+    - website
 spec:
   type: service
-  owner: user:guest
-  lifecycle: experimental
+  lifecycle: production
+  owner: your-team
